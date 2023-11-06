@@ -24,13 +24,12 @@ vendor/firmware/tas2559_uCDSP.bin
 vendor/etc/tas2559_l.ftcfg
 vendor/etc/tas2559_r.ftcfg
 
-# Bluetooth
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
-vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib64/libbtnv.so
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib/libbtnv.so
+# Bluetooth - from munch - RKQ1.211001.001
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|1229a014f7204074e32d6e403a3fc1e148730e2a
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|9940f1e850c2b82d569844ec6aeefebd89f33334
+vendor/lib64/libbtnv.so|7808463b58eb41ec50a0a2b81079229316ec11e3
+vendor/lib64/libsoc_helper.so|30dc6288ae0bdd74a2750dbde4362eb1c3cc1de7
 
 # Camera
 vendor/bin/remosaic_daemon
