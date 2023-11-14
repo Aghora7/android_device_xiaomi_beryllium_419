@@ -1,4 +1,5 @@
 # Device proprietary files - from beryllium's MIUI package V12.0.3.0.QEJMIXM global stable version
+# Cat S62Pro package version: sdm660_64-user 11 RKQ1.210406.002 1.015.00, unless stated otherwise
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -24,12 +25,11 @@ vendor/firmware/tas2559_uCDSP.bin
 vendor/etc/tas2559_l.ftcfg
 vendor/etc/tas2559_r.ftcfg
 
-# Bluetooth - from munch - RKQ1.211001.001
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|1229a014f7204074e32d6e403a3fc1e148730e2a
+# Bluetooth - from S62Pro
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|07d96d0d3c4a500b14ea3c97e02b9eb5ee2bbc4d
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|9940f1e850c2b82d569844ec6aeefebd89f33334
-vendor/lib64/libbtnv.so|7808463b58eb41ec50a0a2b81079229316ec11e3
-vendor/lib64/libsoc_helper.so|30dc6288ae0bdd74a2750dbde4362eb1c3cc1de7
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|c6be436d0f66aafd5be3aa51431d4fc02c50971d
+vendor/lib64/libbtnv.so|0c74a43550b939b9496b03b3285fa950cf560c48
 
 # Camera
 vendor/bin/remosaic_daemon
@@ -187,17 +187,12 @@ vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.sdm845.
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
 
-# FM
-system/lib64/fm_helium.so:system_ext/lib64/fm_helium.so
-system/lib64/libfm-hci.so:system_ext/lib64/libfm-hci.so
-system/lib/fm_helium.so:system_ext/lib/fm_helium.so
-system/lib/libfm-hci.so:system_ext/lib/libfm-hci.so
--product/lib64/vendor.qti.hardware.fm@1.0.so:system_ext/lib64/vendor.qti.hardware.fm@1.0.so
--product/lib/vendor.qti.hardware.fm@1.0.so:system_ext/lib/vendor.qti.hardware.fm@1.0.so
-vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.fm@1.0.so
-vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
-vendor/lib/vendor.qti.hardware.fm@1.0.so
+# FM - from S62Pro
+lib64/fm_helium.so:system_ext/lib64/fm_helium.so|b2440e4feaae8a7f5e2269525520f9774b6962fc
+lib64/libfm-hci.so:system_ext/lib64/libfm-hci.so|758c6e7cfafc964b5cd9d71806ec5455e0d78716
+product/lib64/vendor.qti.hardware.fm@1.0.so:system_ext/lib64/vendor.qti.hardware.fm@1.0.so|5eaf6d5d67361ff6236c1ec4f5225c6185a904a6
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|05931b5d088bd7000b0b002ee650b0953e272cd7
+vendor/lib64/vendor.qti.hardware.fm@1.0.so|f6e23f902b7e15232b20af55161a24da93ffe25f
 
 # GNSS
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti
