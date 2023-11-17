@@ -1,5 +1,6 @@
 # Device proprietary files - from beryllium's MIUI package V12.0.3.0.QEJMIXM global stable version
 # Cat S62Pro package version: sdm660_64-user 11 RKQ1.210406.002 1.015.00, unless stated otherwise
+# instantnoodlep: OnePlus 8 Pro (IN2025_13.1.0.582(EX01))
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -25,11 +26,12 @@ vendor/firmware/tas2559_uCDSP.bin
 vendor/etc/tas2559_l.ftcfg
 vendor/etc/tas2559_r.ftcfg
 
-# Bluetooth - from S62Pro
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|07d96d0d3c4a500b14ea3c97e02b9eb5ee2bbc4d
-vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|c6be436d0f66aafd5be3aa51431d4fc02c50971d
-vendor/lib64/libbtnv.so|0c74a43550b939b9496b03b3285fa950cf560c48
+# Bluetooth - from instantnoodlep
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
+vendor/lib64/libbtnv.so
+vendor/lib64/libsoc_helper.so
 
 # Camera
 vendor/bin/remosaic_daemon
