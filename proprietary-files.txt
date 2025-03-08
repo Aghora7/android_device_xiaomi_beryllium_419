@@ -26,13 +26,6 @@ vendor/firmware/tas2559_uCDSP.bin
 vendor/etc/tas2559_l.ftcfg
 vendor/etc/tas2559_r.ftcfg
 
-# Bluetooth - from instantnoodlep
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
-vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib64/libbtnv.so
-vendor/lib64/libsoc_helper.so
-
 # Camera
 vendor/bin/remosaic_daemon
 vendor/etc/camera/age_gender_bg
