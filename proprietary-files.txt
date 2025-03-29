@@ -13,7 +13,6 @@ vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
-vendor/lib64/libacdbloader.so
 vendor/lib/libacdbloader.so
 
 # ADSP modules
@@ -236,38 +235,6 @@ vendor/lib64/vendor.qti.gnss@2.0.so
 vendor/lib64/vendor.qti.gnss@2.1.so
 vendor/lib64/vendor.qti.gnss@3.0.so
 vendor/lib64/vendor.qti.gnss@3.0-service.so
-vendor/lib/hw/android.hardware.gnss@2.0-impl-qti.so
-vendor/lib/hw/vendor.qti.gnss@3.0-impl.so
-vendor/lib/libaoa.so
-vendor/lib/libbatching.so
-vendor/lib/libcacertclient.so
-vendor/lib/libdataitems.so
-vendor/lib/libgeofencing.so
-vendor/lib/libgdtap.so
-vendor/lib/libgnsspps.so
-vendor/lib/libgnss.so
-vendor/lib/libgps.utils.so
-vendor/lib/libizat_client_api.so
-vendor/lib/libizat_core.so
-vendor/lib/libjnihelper.so
-vendor/lib/liblbs_core.so
-vendor/lib/liblocation_api.so
-vendor/lib/liblocationservice_glue.so
-vendor/lib/liblocationservice.so
-vendor/lib/libloc_api_v02.so
-vendor/lib/libloc_core.so
-vendor/lib/liblowi_client.so
-vendor/lib/liblowi_wifihal.so
-vendor/lib/libminksocket.so
-vendor/lib/libslimclient.so
-vendor/lib/libxtadapter.so
-vendor/lib/vendor.qti.gnss@1.0.so
-vendor/lib/vendor.qti.gnss@1.1.so
-vendor/lib/vendor.qti.gnss@1.2.so
-vendor/lib/vendor.qti.gnss@2.0.so
-vendor/lib/vendor.qti.gnss@2.1.so
-vendor/lib/vendor.qti.gnss@3.0.so
-vendor/lib/vendor.qti.gnss@3.0-service.so
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
@@ -276,24 +243,17 @@ vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
 vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
-vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib/libkeymasterdeviceutils.so
-vendor/lib/libkeymasterprovision.so
-vendor/lib/libkeymasterutils.so
 
 # QDCM calibration data
 vendor/etc/qdcm_calib_data_ebbg_fhd_video_dsi_panel.xml
 vendor/etc/qdcm_calib_data_tianma_fhd_video_dsi_panel.xml
 
 # Snapdragon Computer Vision Engine
-vendor/lib64/libscveFaceLandmarks.so
-vendor/lib64/libscveFaceRecognition.so
 vendor/lib/libscveFaceLandmarks.so
 vendor/lib/libscveFaceRecognition.so
 
 # Sensors
 vendor/lib64/sensors.ssc.so
-vendor/lib/sensors.ssc.so
 
 # Sensors configs
 vendor/etc/sensors/config/adux1050_0.json
@@ -346,5 +306,3 @@ vendor/etc/thermal-engine.conf
 vendor/lib64/libhdcpsrm.so
 vendor/lib64/liboemcrypto.so
 vendor/lib64/libwvkeybox.so
-vendor/lib/liboemcrypto.so
-vendor/lib/libwvkeybox.so
